@@ -23,7 +23,6 @@ import java.lang.reflect.InvocationTargetException;
 
 public class GradleDaemon {
     public static void main(String[] args) {
-        new ProcessBootstrap().run("org.gradle.launcher.daemon.bootstrap.DaemonMain", args);
         try {
             new App().main(args);
         } catch (IOException e) {
@@ -37,5 +36,7 @@ public class GradleDaemon {
         } catch (IllegalAccessException e) {
             throw new RuntimeException(e);
         }
+
+        new ProcessBootstrap().run("org.gradle.launcher.daemon.bootstrap.DaemonMain", args);
     }
 }

@@ -12,6 +12,9 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <repack.dir.parent>D:\z_wd\gradle\usr\local\gradle-source-build\lib\</repack.dir.parent>
+    <repack.target>${repack.dir.parent}/gradle-launcher-6.2.jar</repack.target>
+    <repack.wkdir>${repack.dir.parent}/gradle-launcher-tmp</repack.wkdir>
   </properties>
 
   <dependencies>
@@ -53,14 +56,29 @@
             <configuration>
               <target>
                 <!-- note that here we reference previously declared dependency -->
-                <unzip src="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-6.2.jar"
-                       dest="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp"/>
+                <delete dir="${repack.wkdir}"/>
+<!--                <copy file="${repack.dir.parent}/gradle-launcher-6.2 - Copy.jar" tofile="${repack.target}"/>-->
+                <unzip src="${repack.dir.parent}/../gradle-launcher-6.2 - Copy.jar" dest="${repack.wkdir}-0"/>
                 <!--                <unzip src="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-6.2.jar" dest="${project.build.directory}/tmp"/>-->
                 <!-- now do what you need to any of unpacked files under target/tmp/ -->
-                <copy file="D:\z_wd\lab\runner\target\classes\org\gradle\launcher\daemon\bootstrap\GradleDaemon.class"
-                      todir="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp\org\gradle\launcher\daemon\bootstrap"/>
-                <zip basedir="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp"
-                     destfile="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-6.2.jar"/>
+                <!--                D:\z_wd\lab\runner\target\classes;
+                ;;;-->
+                <unzip src="C:\Users\bullflying\.m2\repository\org\glassfish\grizzly\grizzly-http-server\2.4.4\grizzly-http-server-2.4.4.jar"
+                       dest="${project.build.directory}/1"/>
+                <unzip src="C:\Users\bullflying\.m2\repository\org\glassfish\grizzly\grizzly-http\2.4.4\grizzly-http-2.4.4.jar"
+                       dest="${project.build.directory}/2"/>
+                <unzip src="C:\Users\bullflying\.m2\repository\org\glassfish\grizzly\grizzly-framework\2.4.4\grizzly-framework-2.4.4.jar"
+                       dest="${project.build.directory}/3"/>
+
+                <copydir src="${project.build.directory}/1" dest="${repack.wkdir}"/>
+                <copydir src="${project.build.directory}/2" dest="${repack.wkdir}"/>
+                <copydir src="${project.build.directory}/3" dest="${repack.wkdir}"/>
+                <copydir src="${repack.wkdir}-0" dest="${repack.wkdir}" forceoverwrite="true"/>
+                <copydir src="${project.build.directory}/classes" excludes="org/gradle/launcher/bootstrap/" dest="${repack.wkdir}" forceoverwrite="true"/>
+                <!--                <copy file="D:\z_wd\lab\runner\target\classes\org\gradle\launcher\daemon\bootstrap\GradleDaemon.class"-->
+                <!--                      todir="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp\org\gradle\launcher\daemon\bootstrap"/>-->
+                <zip basedir="${repack.wkdir}"
+                     destfile="${repack.target}"/>
                 <!-- now the modified jar is available  -->
               </target>
             </configuration>

@@ -29,9 +29,9 @@ public class App {
                 },
                 "/time");
         try {
-            runTarget();
+//            runTarget();
             httpServer.start();
-            System.in.read();
+//            System.in.read();
         } catch (IOException e) {
             throw e;
         }

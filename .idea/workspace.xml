@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="364e9b4d-a93a-4ed3-938f-09c65f22aa71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/bootstrap/ProcessBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/run.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/my/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/my/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +39,13 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/gradle/launcher" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="PowerShell.run.ps1">
+  <component name="RunManager" selected="Remote.5006">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my.App" />
       <module name="runner" />
@@ -96,6 +95,20 @@
     <configuration name="run.ps1" type="PowerShellRunType" factoryName="PowerShell" scriptUrl="$PROJECT_DIR$/run.ps1" workingDirectory="D:\z_tmp\tigase-server-8.0.0-b10083">
       <method v="2" />
     </configuration>
+    <configuration name="5006" type="Remote">
+      <module name="runner" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5006" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5006" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
       <module name="runner" />
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -114,6 +127,7 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.App" />
       <item itemvalue="PowerShell.run.ps1" />
+      <item itemvalue="Remote.5006" />
       <item itemvalue="Remote.Unnamed" />
     </list>
     <recent_temporary>
@@ -147,50 +161,78 @@
       <updated>1579329906712</updated>
       <workItem from="1579329911250" duration="5482000" />
       <workItem from="1579335685568" duration="18000" />
-      <workItem from="1579340859011" duration="1492000" />
+      <workItem from="1579340859011" duration="5402000" />
     </task>
+    <task id="LOCAL-00001" summary="replace">
+      <created>1579342471033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579342471033</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="replace" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="112" key="#Project_Structure" timestamp="1579330528941">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="421" y="112" key="#Project_Structure/0.0.1858.1080@0.0.1858.1080" timestamp="1579330528941" />
-    <state x="383" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579333123148">
+    <state x="383" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579343240285">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="383" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579333123148" />
+    <state x="383" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579343240285" />
     <state x="793" y="171" width="879" height="737" key="#xdebugger.evaluate" timestamp="1579333153712">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="793" y="171" width="879" height="737" key="#xdebugger.evaluate/0.0.1858.1080@0.0.1858.1080" timestamp="1579333153712" />
-    <state width="1859" height="292" key="GridCell.Tab.0.bottom" timestamp="1579335628969">
+    <state x="474" y="59" key="CommitChangelistDialog2" timestamp="1579342470276">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="292" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
-    <state width="1859" height="292" key="GridCell.Tab.0.center" timestamp="1579335628969">
+    <state x="474" y="59" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1579342470276" />
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1579344126342">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="292" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
-    <state width="1859" height="292" key="GridCell.Tab.0.left" timestamp="1579335628969">
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579344126342" />
+    <state width="977" height="426" key="GridCell.Tab.0.bottom" timestamp="1579346056107">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="292" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
-    <state width="1859" height="292" key="GridCell.Tab.0.right" timestamp="1579335628969">
+    <state width="977" height="426" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
+    <state width="977" height="426" key="GridCell.Tab.0.center" timestamp="1579346056107">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="292" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
+    <state width="977" height="426" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
+    <state width="977" height="426" key="GridCell.Tab.0.left" timestamp="1579346056107">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="977" height="426" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
+    <state width="977" height="426" key="GridCell.Tab.0.right" timestamp="1579346056107">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="977" height="426" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
     <state x="346" y="109" key="Maven.ArtifactSearchDialog" timestamp="1579330873475">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="346" y="109" key="Maven.ArtifactSearchDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579330873475" />
-    <state x="281" y="7" key="SettingsEditor" timestamp="1579330003609">
+    <state x="281" y="7" key="SettingsEditor" timestamp="1579345915956">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="281" y="7" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1579330003609" />
+    <state x="281" y="7" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1579345915956" />
+    <state width="623" height="536" key="SwitcherDM" timestamp="1579345485098">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="623" height="536" key="SwitcherDM/0.0.1858.1080@0.0.1858.1080" timestamp="1579345485098" />
+    <state x="421" y="204" key="Vcs.Push.Dialog.v2" timestamp="1579342475109">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="421" y="204" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1579342475109" />
     <state x="703" y="300" key="chooseDestDirectoryDialog" timestamp="1579340922284">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -203,17 +245,43 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="596" y="238" key="extract.method.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579332717333" />
-    <state x="550" y="234" width="758" height="612" key="find.popup" timestamp="1579329987030">
+    <state x="550" y="234" width="758" height="612" key="find.popup" timestamp="1579342489387">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="550" y="234" width="758" height="612" key="find.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579329987030" />
+    <state x="550" y="234" width="758" height="612" key="find.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579342489387" />
     <state x="501" y="247" key="run.anything.popup" timestamp="1579332731650">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="501" y="247" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579332731650" />
-    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579341554779">
+    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579343625877">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579341554779" />
+    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579343625877" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/my/App.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/my/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
