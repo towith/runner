@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="364e9b4d-a93a-4ed3-938f-09c65f22aa71" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\Applications\z_disk\conf\persist\maven\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WYcKgXX20XRoM5HdVaSVxOutRy" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="PowerShell.run.ps1">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.App" />
+      <module name="runner" />
+      <option name="VM_PARAMETERS" value="-javaagent:D:\z_my\xrebel\xrebel.jar -Dxrebel.injection.log_response=true" />
+      <extension name="chronon">
+        <include>
+          <pattern>
+            <option name="PATTERN" value="my.**" />
+            <option name="ENABLED" value="true" />
+            <option name="INCLUDE" value="true" />
+          </pattern>
+        </include>
+      </extension>
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.Main" />
+      <module name="runner" />
+      <option name="PROGRAM_PARAMETERS" value="-javaagent:D:\z_my\xrebel\xrebel.jar -Dxrebel.injection.log_response=true -Dxrebel.injection=false" />
+      <extension name="chronon">
+        <include>
+          <pattern>
+            <option name="PATTERN" value="my.**" />
+            <option name="ENABLED" value="true" />
+            <option name="INCLUDE" value="true" />
+          </pattern>
+        </include>
+      </extension>
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run.ps1" type="PowerShellRunType" factoryName="PowerShell" scriptUrl="$PROJECT_DIR$/run.ps1" workingDirectory="D:\z_tmp\tigase-server-8.0.0-b10083">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Remote" nameIsGenerated="true">
+      <module name="runner" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="PowerShell.run.ps1" />
+      <item itemvalue="Remote.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="364e9b4d-a93a-4ed3-938f-09c65f22aa71" name="Default Changelist" comment="" />
+      <created>1579329906712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579329906712</updated>
+      <workItem from="1579329911250" duration="4145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="112" key="#Project_Structure" timestamp="1579330528941">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="421" y="112" key="#Project_Structure/0.0.1858.1080@0.0.1858.1080" timestamp="1579330528941" />
+    <state x="383" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579333123148">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="383" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579333123148" />
+    <state x="793" y="171" width="879" height="737" key="#xdebugger.evaluate" timestamp="1579333153712">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="793" y="171" width="879" height="737" key="#xdebugger.evaluate/0.0.1858.1080@0.0.1858.1080" timestamp="1579333153712" />
+    <state width="1859" height="426" key="GridCell.Tab.0.bottom" timestamp="1579333830648">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="426" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
+    <state width="1859" height="426" key="GridCell.Tab.0.center" timestamp="1579333830648">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="426" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
+    <state width="1859" height="426" key="GridCell.Tab.0.left" timestamp="1579333830648">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="426" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
+    <state width="1859" height="426" key="GridCell.Tab.0.right" timestamp="1579333830648">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1859" height="426" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
+    <state x="346" y="109" key="Maven.ArtifactSearchDialog" timestamp="1579330873475">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="346" y="109" key="Maven.ArtifactSearchDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579330873475" />
+    <state x="281" y="7" key="SettingsEditor" timestamp="1579330003609">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="281" y="7" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1579330003609" />
+    <state x="596" y="238" key="extract.method.dialog" timestamp="1579332717333">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="596" y="238" key="extract.method.dialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579332717333" />
+    <state x="550" y="234" width="758" height="612" key="find.popup" timestamp="1579329987030">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="550" y="234" width="758" height="612" key="find.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579329987030" />
+    <state x="501" y="247" key="run.anything.popup" timestamp="1579332731650">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="501" y="247" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579332731650" />
+    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579333792302">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579333792302" />
+  </component>
+</project>
