@@ -27,4 +27,46 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <exclude>org/gradle/launcher/bootstrap/ProcessBootstrap.class</exclude>
+            <exclude>org/gradle/launcher/bootstrap/</exclude>
+          </excludes>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <version>1.6</version>
+        <executions>
+          <execution>
+            <id>repack</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>run</goal>
+            </goals>
+            <configuration>
+              <target>
+                <!-- note that here we reference previously declared dependency -->
+                <unzip src="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-6.2.jar"
+                       dest="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp"/>
+                <!--                <unzip src="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-6.2.jar" dest="${project.build.directory}/tmp"/>-->
+                <!-- now do what you need to any of unpacked files under target/tmp/ -->
+                <copy file="D:\z_wd\lab\runner\target\classes\org\gradle\launcher\daemon\bootstrap\GradleDaemon.class"
+                      todir="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp\org\gradle\launcher\daemon\bootstrap"/>
+                <zip basedir="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-tmp"
+                     destfile="D:\z_wd\gradle\usr\local\gradle-source-build\lib\gradle-launcher-6.2.jar"/>
+                <!-- now the modified jar is available  -->
+              </target>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>

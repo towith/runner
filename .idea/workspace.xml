@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364e9b4d-a93a-4ed3-938f-09c65f22aa71" name="Default Changelist" comment="" />
+    <list default="true" id="364e9b4d-a93a-4ed3-938f-09c65f22aa71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/bootstrap/ProcessBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/run.ps1" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -15,6 +26,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WYcKgXX20XRoM5HdVaSVxOutRy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,10 +35,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/gradle/launcher" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -131,7 +145,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579329906712</updated>
-      <workItem from="1579329911250" duration="4145000" />
+      <workItem from="1579329911250" duration="5482000" />
+      <workItem from="1579335685568" duration="18000" />
+      <workItem from="1579340859011" duration="1492000" />
     </task>
     <servers />
   </component>
@@ -151,22 +167,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="793" y="171" width="879" height="737" key="#xdebugger.evaluate/0.0.1858.1080@0.0.1858.1080" timestamp="1579333153712" />
-    <state width="1859" height="426" key="GridCell.Tab.0.bottom" timestamp="1579333830648">
+    <state width="1859" height="292" key="GridCell.Tab.0.bottom" timestamp="1579335628969">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="426" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
-    <state width="1859" height="426" key="GridCell.Tab.0.center" timestamp="1579333830648">
+    <state width="1859" height="292" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
+    <state width="1859" height="292" key="GridCell.Tab.0.center" timestamp="1579335628969">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="426" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
-    <state width="1859" height="426" key="GridCell.Tab.0.left" timestamp="1579333830648">
+    <state width="1859" height="292" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
+    <state width="1859" height="292" key="GridCell.Tab.0.left" timestamp="1579335628969">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="426" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
-    <state width="1859" height="426" key="GridCell.Tab.0.right" timestamp="1579333830648">
+    <state width="1859" height="292" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
+    <state width="1859" height="292" key="GridCell.Tab.0.right" timestamp="1579335628969">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1859" height="426" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579333830648" />
+    <state width="1859" height="292" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579335628969" />
     <state x="346" y="109" key="Maven.ArtifactSearchDialog" timestamp="1579330873475">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -175,6 +191,14 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="281" y="7" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1579330003609" />
+    <state x="703" y="300" key="chooseDestDirectoryDialog" timestamp="1579340922284">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="703" y="300" key="chooseDestDirectoryDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579340922284" />
+    <state x="387" y="211" width="1084" height="703" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1579334401561">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="387" y="211" width="1084" height="703" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1858.1080@0.0.1858.1080" timestamp="1579334401561" />
     <state x="596" y="238" key="extract.method.dialog" timestamp="1579332717333">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -187,9 +211,9 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="501" y="247" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579332731650" />
-    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579333792302">
+    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup" timestamp="1579341554779">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579333792302" />
+    <state x="508" y="45" width="840" height="1034" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1579341554779" />
   </component>
 </project>

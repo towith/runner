@@ -1,3 +1,3 @@
 $debug="-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=127.0.0.1:5005"
-$debug=""
+#$debug=""
 java  -cp "jars/*;D:\z_wd\lab\runner\target\classes;C:\Users\bullflying\.m2\repository\org\glassfish\grizzly\grizzly-http-server\2.4.4\grizzly-http-server-2.4.4.jar;C:\Users\bullflying\.m2\repository\org\glassfish\grizzly\grizzly-http\2.4.4\grizzly-http-2.4.4.jar;C:\Users\bullflying\.m2\repository\org\glassfish\grizzly\grizzly-framework\2.4.4\grizzly-framework-2.4.4.jar;"  $debug -javaagent:D:\z_my\xrebel\xrebel.jar my.App
