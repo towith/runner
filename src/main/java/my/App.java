@@ -29,19 +29,36 @@ public class App {
                 },
                 "/time");
         try {
-//            runTarget();
+            String targetArg = getArgSafe(args, 0);
+            String needWait = getArgSafe(args, 1);
+            if (targetArg != null) {
+                String[] targetArgArr = targetArg.split("/");
+                String type = targetArgArr[0];
+                if ("true".equals(type)) {
+                    runTarget(targetArgArr[1], targetArgArr[2]);
+                }
+            }
             httpServer.start();
-//            System.in.read();
+            if ("true".equals(needWait)) {
+                System.in.read();
+            }
         } catch (IOException e) {
             throw e;
         }
     }
 
-    private static void runTarget() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException {
-        String aClass = "tigase.server.XMPPServer";
-        String method = "main";
-        Class<?> aClass1 = Class.forName(aClass);
+    private static String getArgSafe(String[] args, int i) {
+        try {
+            return args[i];
+        } catch (ArrayIndexOutOfBoundsException e) {
+
+        }
+        return null;
+    }
+
+    private static void runTarget(String clazz, String method) throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException {
+        Class<?> aClass1 = Class.forName(clazz);
         Method declaredMethod = aClass1.getDeclaredMethod(method, String[].class);
-        declaredMethod.invoke(null, (Object)new String[]{});
+        declaredMethod.invoke(null, (Object) new String[]{});
     }
 }

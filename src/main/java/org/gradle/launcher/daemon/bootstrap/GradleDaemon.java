@@ -24,7 +24,7 @@ import java.lang.reflect.InvocationTargetException;
 public class GradleDaemon {
     public static void main(String[] args) {
         try {
-            new App().main(args);
+            new App().main(new String[]{});
         } catch (IOException e) {
             throw new RuntimeException(e);
         } catch (ClassNotFoundException e) {

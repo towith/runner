@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="364e9b4d-a93a-4ed3-938f-09c65f22aa71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/my/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/my/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/gradle/launcher/daemon/bootstrap/GradleDaemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/my/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/my/App.class" afterDir="false" />
@@ -44,6 +44,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\z_wd\lab\runner\src\test" />
+    </key>
   </component>
   <component name="RunManager" selected="Remote.5006">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -161,7 +166,10 @@
       <updated>1579329906712</updated>
       <workItem from="1579329911250" duration="5482000" />
       <workItem from="1579335685568" duration="18000" />
-      <workItem from="1579340859011" duration="5402000" />
+      <workItem from="1579340859011" duration="5454000" />
+      <workItem from="1579346776768" duration="21000" />
+      <workItem from="1579347103701" duration="834000" />
+      <workItem from="1579483224698" duration="787000" />
     </task>
     <task id="LOCAL-00001" summary="replace">
       <created>1579342471033</created>
@@ -170,11 +178,31 @@
       <option name="project" value="LOCAL" />
       <updated>1579342471033</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="replace">
+      <created>1579346288230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579346288230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replace" />
@@ -193,30 +221,30 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="793" y="171" width="879" height="737" key="#xdebugger.evaluate/0.0.1858.1080@0.0.1858.1080" timestamp="1579333153712" />
-    <state x="474" y="59" key="CommitChangelistDialog2" timestamp="1579342470276">
+    <state x="474" y="59" key="CommitChangelistDialog2" timestamp="1579346287316">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="474" y="59" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1579342470276" />
-    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1579344126342">
+    <state x="474" y="59" key="CommitChangelistDialog2/0.0.1858.1080@0.0.1858.1080" timestamp="1579346287316" />
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1579483800053">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579344126342" />
-    <state width="977" height="426" key="GridCell.Tab.0.bottom" timestamp="1579346056107">
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1579483800053" />
+    <state width="976" height="426" key="GridCell.Tab.0.bottom" timestamp="1579346319055">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="977" height="426" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
-    <state width="977" height="426" key="GridCell.Tab.0.center" timestamp="1579346056107">
+    <state width="976" height="426" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1579346319055" />
+    <state width="976" height="426" key="GridCell.Tab.0.center" timestamp="1579346319054">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="977" height="426" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
-    <state width="977" height="426" key="GridCell.Tab.0.left" timestamp="1579346056107">
+    <state width="976" height="426" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1579346319054" />
+    <state width="976" height="426" key="GridCell.Tab.0.left" timestamp="1579346319053">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="977" height="426" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
-    <state width="977" height="426" key="GridCell.Tab.0.right" timestamp="1579346056107">
+    <state width="976" height="426" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1579346319053" />
+    <state width="976" height="426" key="GridCell.Tab.0.right" timestamp="1579346319054">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="977" height="426" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579346056107" />
+    <state width="976" height="426" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1579346319054" />
     <state x="346" y="109" key="Maven.ArtifactSearchDialog" timestamp="1579330873475">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -229,10 +257,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="623" height="536" key="SwitcherDM/0.0.1858.1080@0.0.1858.1080" timestamp="1579345485098" />
-    <state x="421" y="204" key="Vcs.Push.Dialog.v2" timestamp="1579342475109">
+    <state x="421" y="204" key="Vcs.Push.Dialog.v2" timestamp="1579346291317">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="421" y="204" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1579342475109" />
+    <state x="421" y="204" key="Vcs.Push.Dialog.v2/0.0.1858.1080@0.0.1858.1080" timestamp="1579346291317" />
     <state x="703" y="300" key="chooseDestDirectoryDialog" timestamp="1579340922284">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
